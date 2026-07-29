@@ -75,6 +75,15 @@
   }
   .cta-secondary { font-size: 13px; font-weight: 600; color: var(--text-dim); text-decoration: none; }
   .cta-secondary:hover { color: var(--accent); }
+  .cta-coffee {
+    color: #402a06; background: #ffdd00; border-color: #ffdd00;
+  }
+  .cta-coffee:hover { background: #ffe93d; border-color: #ffe93d; }
+  .footer-coffee {
+    display: inline-flex; align-items: center; gap: 6px; margin-top: 4px;
+    font-weight: 700; text-decoration: none; color: var(--text-dim);
+  }
+  .footer-coffee:hover { color: var(--accent); }
 
   .shot-wrap {
     max-width: 900px; margin: 0 auto 64px; border: 1px solid var(--border); border-radius: 14px;
@@ -157,6 +166,7 @@
 <div class="cta-row">
   <!-- TODO: sostituire con l'URL della scheda Chrome Web Store una volta pubblicata -->
   <span class="cta-badge" data-i18n="ctaBadge">Coming soon to the Chrome Web Store</span>
+  <a class="cta-badge cta-coffee" href="https://buymeacoffee.com/creativeapp" target="_blank" rel="noopener noreferrer">☕ Buy me a coffee</a>
   <a class="cta-secondary" href="privacy.html" data-i18n="ctaPrivacy">Read the privacy policy</a>
 </div>
 
@@ -210,6 +220,7 @@
 <footer>
   <span data-i18n="footer1"></span>
   <span data-i18n="footer2"></span>
+  <a class="footer-coffee" href="https://buymeacoffee.com/creativeapp" target="_blank" rel="noopener noreferrer">☕ Buy me a coffee</a>
 </footer>
 
 <script>
